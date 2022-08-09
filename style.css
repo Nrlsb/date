@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.container-principal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #00f815, #9cd100, #d2a400, #f26c00, #fd0000);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #E3F800;
+}
+
+.form p {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.form input {
+    width: 300px;
+    height: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form button {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+}
